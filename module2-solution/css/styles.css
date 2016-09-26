@@ -3,30 +3,42 @@
   box-sizing: border-box;
 }
 h1 {
-  margin-bottom: 15px;
+  text-align: center;
+  margin-bottom: 40px;
+  font-family:"Comic Sans MS", Serif;
 }
 
+
 p {
-  border: 1px solid black;
-  background-color: #A52A2A;
-  width: 90%;
-  height: 150px;
+  position: relative;
+  background-color: #D3D3D3;
+  width: 100%;
+  margin-top: 0;
   margin-right: auto;
   margin-left: auto;
   font-family: Helvetica;
-  color: white;
+  color:black;
+  padding: 15px;
+
 }
+
+
 
 /* Simple Responsive Framework. */
 .row {
   width: 100%;
-}
+  position: relative;
+  }
+
+
+
 
 /********** Large devices only **********/
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
-    border: 1px solid green;
+   
+
   }
   .col-lg-1 {
     width: 8.33%;
@@ -64,13 +76,15 @@ p {
   .col-lg-12 {
     width: 100%;
   }
+
 }
 
 /********** Medium devices only **********/
-@media (min-width: 950px) and (max-width: 1199px) {
+@media (min-width: 768px) and (max-width: 991px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
-    border: 1px solid green;
+    position: relative;
+    
   }
   .col-md-1 {
     width: 8.33%;
@@ -109,3 +123,50 @@ p {
     width: 100%;
   }
 }
+#container{
+ position:relative;
+ /*background-color: yellow;*/
+ padding: 10px;
+/* margin:1px;*/
+}
+
+
+
+#inside{
+margin:10px;
+background-color: #D3D3D3;
+border:1px solid black;
+
+}
+
+#title{
+  position: relative;
+  border:1px solid black;
+  right: 0px;
+  top: 0px;
+  height: 36px;
+  width:175px;
+  margin-right: 0;
+  margin-top:0;
+  margin-bottom: 0;
+  padding:0;
+  text-align:center;
+  vertical-align: middle;
+  color:black;
+  font-family: Verdana, Times, Serif;
+  font-size:150%;
+  font-weight:bold;
+  }
+
+  .chicken{
+    background-color: #FFB6C1;
+  }
+
+  .beef{
+    background-color: #CD5C5C;
+  }
+
+  .shushi{
+   background-color: #FFFACD;
+  }
+  
