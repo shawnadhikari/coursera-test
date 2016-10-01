@@ -94,7 +94,7 @@ body {
 @media (max-width: 767px) {
   /* Header */
   .navbar-header{
-    height: 15vw;
+    height: 24vw;
   }
   .navbar-brand {
     padding-top: 10px;
@@ -142,7 +142,7 @@ body {
  /* MAIN PAGE */ 
   #our-menu{
   color:black;
-  font-size:5vw;
+  font-size:10vw;
   font-family:'Aerial';
  }
 
